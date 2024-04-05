@@ -1,5 +1,5 @@
 {
-  "name": "@davisljr/reactobelisco",
+  "name": "@davis-lp/components-react-js",
   "version": "0.0.1",
   "description": "Libreria de componentes Obelisco basado en React js.",
   "type": "module",
@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "lint-fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
-    "dev" : "cd front && npm run dev",
+    "dev": "cd front && npm run dev",
     "build": "cd front && npm run build",
-    "start" : "cd front && npm run start"
+    "start": "cd front && npm run start"
   },
   "author": "Davis",
   "license": "ISC",
@@ -62,6 +62,7 @@
     "classnames": "^2.3.2",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.1.0",
-    "react-router-dom": "^6.20.0"
+    "react-router-dom": "^6.20.0",
+    "tslib": "^2.6.2"
   }
 }

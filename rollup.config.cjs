@@ -29,7 +29,7 @@ module.exports = [
       typescript({tsconfig: "./tsconfig.json"}),
       postcss(),
       globImport({
-        exclude: "**/front/**/*.ts",
+        exclude: ["**/front/**/*.ts", "**/__tests__/**", "**/*.test.tsx", "**/*.spec.tsx"],
       }),
     ],
   },
@@ -37,6 +37,6 @@ module.exports = [
     input: "dist/esm/types/index.d.ts",
     output: [{file: "dist/index.d.ts", format: "esm"}],
     plugins: [dts.default()],
-    external: [/\.css$/, /\.scss$/],
+    external: [/\.css$/, /\.scss$/, /\.test.tsx$/],
   },
 ];
