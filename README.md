@@ -12,6 +12,8 @@ Para instalar Reactobelisco en tu proyecto, puedes ejecutar:
 npm i @davis-lp/components-react-js
 ```
 
+## https://www.npmjs.com/package/@davis-lp/components-react-js
+
 ## Uso
 
 ```jsx
