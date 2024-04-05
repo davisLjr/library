@@ -9,22 +9,22 @@ Es una librería de componentes basados en React.js inspirados en el sistema de 
 Para instalar Reactobelisco en tu proyecto, puedes ejecutar:
 
 ```bash
-npm install @davisljr/reactobelisco
+npm i @davis-lp/components-react-js
 ```
 
 ## Uso
 
 ```jsx
-import React from 'react';
-import { Componente } from '@davisljr/reactobelisco';
+import React from "react";
+import {Componente} from "@davisljr/reactobelisco";
 
 const MiComponente = () => {
-return (
-<div>
-<h1>Mi Aplicación</h1>
-<Componente />
-</div>
-);
+  return (
+    <div>
+      <h1>Mi Aplicación</h1>
+      <Componente />
+    </div>
+  );
 };
 
 export default MiComponente;
@@ -42,7 +42,6 @@ En el directorio del proyecto, puedes correr:
 - `npm run dev`: Inicia el entorno de desarrollo para la parte del front-end.
 - `npm run build`: Construye la aplicación para producción en la carpeta `dist`.
 - `npm start`: Inicia la aplicación para producción.
-
 
 ## Licencia
 
